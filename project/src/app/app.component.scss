@@ -1,0 +1,45 @@
+.page-header {
+  text-align: center;
+}
+
+.task-container {
+  position: relative;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 1px solid silver;
+  border-radius: 4px;
+  margin: 20px;
+}
+
+.title {
+  border-bottom: 1px solid silver;
+}
+
+.description {
+  min-height: 110px;
+  padding: 15px;
+}
+
+.footer {
+  padding: 10px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+
+.addNew {
+  float: right;
+}
+
+.fld {
+  width: 100%;
+  margin-bottom: 15px;
+}
